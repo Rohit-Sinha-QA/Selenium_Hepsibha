@@ -1,0 +1,10 @@
+<suite name="Selenium Suite">
+    <listeners>
+        <listener class-name="listeners.TestNGExtentReportListener"/>
+    </listeners>
+    <test name="Selenium Test">
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+</suite>

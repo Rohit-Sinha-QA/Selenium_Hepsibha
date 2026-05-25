@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Suite]" verbose="0">
+  <listeners>
+    <listener class-name="listeners.TestNGExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Selenium Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.ExcelTests">
+        <methods>
+          <include name="test_ExcelTest"/>
+          <include name="tearDownBase"/>
+          <include name="setUpBase"/>
+        </methods>
+      </class> <!-- tests.ExcelTests -->
+    </classes>
+  </test> <!-- Selenium Test(failed) -->
+</suite> <!-- Failed suite [Selenium Suite] -->
